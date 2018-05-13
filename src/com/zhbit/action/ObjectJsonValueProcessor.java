@@ -39,6 +39,7 @@ public class ObjectJsonValueProcessor implements JsonValueProcessor{
 		return null;
 	}
 
+
 	public Object processObjectValue(String key, Object value, JsonConfig jsonConfig) {
 		PropertyDescriptor pd = null;  
         Method method = null;  
